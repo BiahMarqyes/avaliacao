@@ -9,7 +9,6 @@ export default function Cardapio(){
     return (
         <main>
             <nav className={ styles.menu }>
-            <img src={Logo} alt="Logo do Restaurante"/>
             {/*Cardapio da Melhor Confeitaria*/}
             </nav>
             <header className={ styles.header }>
@@ -18,7 +17,7 @@ export default function Cardapio(){
                 </div>
             </header>
             <section className={styles.cardapio}>
-              <h3 className={styles.cardapio__titulo} >cardapio</h3>
+              <h3 className={styles.cardapio__titulo} >Cardápio</h3>
               <Buscador busca={buscar} setBusca={setBusca}/>
               <div className={styles.cardapio__filtros}>
                 <Filtros/>
@@ -27,3 +26,4 @@ export default function Cardapio(){
         </main>
     );
 }
+ 

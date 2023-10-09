@@ -32,13 +32,14 @@
     padding: 0px $padding-horizontal-md;
   }
   &__text {
-    color: white;
+    color: rgb(235, 226, 226);
     font-size: 3rem;
     min-width: 400px;
-    width: 40%;
+    width: 30%;
+    margin-left: 70%;
   }
 }
-
+ 
 .cardapio {
   padding: 50px $padding-horizontal;
   @media (max-width: $desktop_xsm) {
